@@ -1,7 +1,7 @@
 ﻿<Module>
   <Name value="Party Screen Improvements"/>
   <Id value="PartyScreenImprovements"/>
-  <Version value="v1.0.1"/>
+  <Version value="v1.1.0"/>
   <SingleplayerModule value="true"/>
   <MultiplayerModule value="false"/>
   <DependedModules>
@@ -9,6 +9,7 @@
     <DependedModule Id="SandBoxCore"/>
     <DependedModule Id="Sandbox"/>
     <DependedModule Id="StoryMode" />
+	<DependedModule Id = "ModLib" />
   </DependedModules>
   <SubModules>
     <SubModule>
@@ -20,15 +21,6 @@
         <Tag key="IsNoRenderModeElement" value="false" />
       </Tags>
     </SubModule>
-	  <SubModule>
-		  <Name value="ModLib"/>
-		  <DLLName value="ModLib.dll"/>
-		  <SubModuleClassType value="ModLib.ModLibSubModule"/>
-		  <Tags>
-			  <Tag key="DedicatedServerType" value="none" />
-			  <Tag key="IsNoRenderModeElement" value="false" />
-		  </Tags>
-	  </SubModule>
   </SubModules>
   <Xmls/>
 </Module>

@@ -1,4 +1,4 @@
-﻿PARTY SCREEN IMPROVEMENTS - 1.0.0
+﻿PARTY SCREEN IMPROVEMENTS - 1.1.0
 This mod adds improvements to the Party Screen to save you a lot of clicking:
 
 :: Recruit all Prisoners: ::
